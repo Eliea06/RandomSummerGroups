@@ -1,4 +1,4 @@
 public class Main
 {
-  system.out.print("Hello World");
+  String[] names = {"Maddy", "Connor", "Sinead", "Mallory", "Amy"};
 }
