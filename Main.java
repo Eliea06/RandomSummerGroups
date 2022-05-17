@@ -9,8 +9,12 @@ public class Main
   names.add("Connor");
   names.add("Amy");
   
-  TeamOne one = TeamOne(names);
+  TeamOne one = new TeamOne(names);
   
   one.createTeamOne();
+  
+  System.out.println("Team One: " + one);
+  
+  System.out.println("Team Two: " + one.getNewAL);
   
 }
