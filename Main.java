@@ -1,3 +1,5 @@
+$ ssh-keygen -t ed25519 -C "madeline@ziemer.net";
+
 import java.util.ArrayList;
 public class Main
 {
