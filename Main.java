@@ -11,6 +11,6 @@ public class Main
   
   TeamOne one = TeamOne(names);
   
-  one.getTeamOne();
+  one.createTeamOne();
   
 }
