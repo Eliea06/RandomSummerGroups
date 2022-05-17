@@ -23,4 +23,23 @@ public class TeamOne
     return team;
     
   }
+  
+  public ArrayList<String> getNewAL(String[] teamOne)
+  {
+    ArrayList<String> nueva = names;
+    
+    for(int i = 0; i < teamOne.length; i++)
+    {
+      for(int j = 0; j < nueva.size(); j++)
+      {
+        if (nueva.get(j).equals(teamOne[i]))
+        {
+          nueva.remove(j);
+        }
+      }
+    }
+    
+    return nueva;
+    
+  }
 }
